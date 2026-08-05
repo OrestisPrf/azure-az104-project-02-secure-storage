@@ -1,1 +1,13 @@
 
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$StorageAccountName
+)
+
+$hostName = "$StorageAccountName.blob.core.windows.net"
+
+Write-Host "Testing DNS resolution for $hostName"
+nslookup $hostName
+
+Write-Host "`nTesting HTTPS connectivity on TCP 443"
+Test-NetConnection $hostName -Port 443
