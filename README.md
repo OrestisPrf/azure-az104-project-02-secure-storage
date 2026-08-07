@@ -289,23 +289,6 @@ azure-az104-project-02-secure-storage/
 
 ---
 
-## 📸 Recommended Screenshots
-
-Add these files to the `images/` directory:
-
-```text
-01-resource-group.png
-02-vnet-subnets.png
-03-nsg-rules.png
-04-storage-networking.png
-05-private-endpoint.png
-06-private-dns.png
-07-nslookup-private-ip.png
-08-test-netconnection.png
-09-rbac-assignments.png
-10-blob-container.png
-11-arm-deployment.png
-```
 
 Embed them in the README using:
 
